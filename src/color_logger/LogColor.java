@@ -1,4 +1,4 @@
-package com.savkova.color_logger;
+package color_logger;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

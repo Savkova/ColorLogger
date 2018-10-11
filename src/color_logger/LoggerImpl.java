@@ -1,4 +1,4 @@
-package com.savkova.color_logger;
+package color_logger;
 
 public class LoggerImpl implements Logger
 {

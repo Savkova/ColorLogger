@@ -1,8 +1,6 @@
-package com.savkova.logger_usage;
-
-import com.savkova.color_logger.Logger;
-import com.savkova.color_logger.LoggerFactory;
-import com.savkova.color_logger.LoggerImpl;
+import color_logger.Logger;
+import color_logger.LoggerFactory;
+import color_logger.LoggerImpl;
 
 public class TestColorLogger
 {

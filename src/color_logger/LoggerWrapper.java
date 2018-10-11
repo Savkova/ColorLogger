@@ -1,4 +1,4 @@
-package com.savkova.color_logger;
+package color_logger;
 
 import java.lang.reflect.Method;
 
@@ -12,7 +12,7 @@ public class LoggerWrapper implements Logger
     private static final String DEBUG = "debug";
     private static final String TRACE = "trace";
 
-    public LoggerWrapper(Logger loggerImpl)
+    LoggerWrapper(Logger loggerImpl)
     {
         this.loggerImpl = loggerImpl;
     }
