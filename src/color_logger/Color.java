@@ -1,6 +1,6 @@
 package color_logger;
 
-public enum MyColor
+public enum Color
 {
     BLACK("\u001B[30m"),
     RED("\u001B[31m"),
@@ -14,13 +14,13 @@ public enum MyColor
     private static final String ANSI_RESET = "\u001B[0m";
     private final String startCode;
 
-    MyColor(String startCode)
+    Color(String startCode)
     {
         this.startCode = startCode;
     }
 
     public String convert(String text)
     {
-        return this.startCode + text + MyColor.ANSI_RESET;
+        return this.startCode + text + Color.ANSI_RESET;
     }
 }
